@@ -51,7 +51,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3
 
 ## `qtools requeue [QUEUE]`
 
-describe the command here
+Requeues all messages on the given queue's DLQ
 
 ```
 USAGE
@@ -62,5 +62,5 @@ OPTIONS
   -r, --region=region  [default: us-east-1] AWS region to execute command in
 ```
 
-_See code: [src/commands/requeue.ts](https://github.com/theBenForce/qtools/blob/v0.0.0/src/commands/requeue.ts)_
+_See code: [src/commands/requeue.ts](https://github.com/drg-adaptive/qtools/blob/v0.0.0/src/commands/requeue.ts)_
 <!-- commandsstop -->
