@@ -29,28 +29,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`qtools hello [FILE]`](#qtools-hello-file)
 * [`qtools help [COMMAND]`](#qtools-help-command)
-
-## `qtools hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ qtools hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ qtools hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/theBenForce/qtools/blob/v0.0.0/src/commands/hello.ts)_
+* [`qtools requeue [QUEUE]`](#qtools-requeue-queue)
 
 ## `qtools help [COMMAND]`
 
@@ -68,4 +48,19 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `qtools requeue [QUEUE]`
+
+describe the command here
+
+```
+USAGE
+  $ qtools requeue [QUEUE]
+
+OPTIONS
+  -h, --help           show CLI help
+  -r, --region=region  [default: us-east-1] AWS region to execute command in
+```
+
+_See code: [src/commands/requeue.ts](https://github.com/theBenForce/qtools/blob/v0.0.0/src/commands/requeue.ts)_
 <!-- commandsstop -->
