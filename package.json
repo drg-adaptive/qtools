@@ -6,7 +6,7 @@
   "bin": {
     "qtools": "./bin/run"
   },
-  "bugs": "https://github.com/theBenForce/qtools/issues",
+  "bugs": "https://github.com/drg-adaptive/qtools/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -20,9 +20,17 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "@oclif/tslint": "^3",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.5",
+    "@semantic-release/release-notes-generator": "^7.3.5",
     "@types/inquirer": "^6.5.0",
     "@types/node": "^10",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
     "globby": "^10",
+    "semantic-release": "^15.14.0",
     "ts-node": "^8",
     "tslint": "^5",
     "typescript": "^3.3"
@@ -36,7 +44,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/theBenForce/qtools",
+  "homepage": "https://github.com/drg-adaptive/qtools",
   "keywords": [
     "oclif"
   ],
@@ -49,7 +57,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "theBenForce/qtools",
+  "repository": "git@github.com:drg-adaptive/qtools.git",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "tslint -p . -t stylish",
@@ -57,5 +65,10 @@
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
