@@ -1,6 +1,6 @@
 {
-  "name": "qtools",
-  "description": "Tools to manage AWS queues",
+  "name": "queue-tools",
+  "description": "Tools to interact with AWS queues",
   "version": "0.0.0",
   "author": "Ben Force @theBenForce",
   "bin": {
@@ -46,6 +46,11 @@
   ],
   "homepage": "https://github.com/drg-adaptive/qtools",
   "keywords": [
+    "oclif",
+    "aws",
+    "sqs",
+    "sqs-queue",
+    "cli",
     "oclif"
   ],
   "license": "MIT",
