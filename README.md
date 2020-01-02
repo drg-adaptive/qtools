@@ -1,19 +1,20 @@
-qtools
-======
+# qtools
 
 Tools to manage AWS queues
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/qtools.svg)](https://npmjs.org/package/qtools)
-[![Codecov](https://codecov.io/gh/theBenForce/qtools/branch/master/graph/badge.svg)](https://codecov.io/gh/theBenForce/qtools)
 [![Downloads/week](https://img.shields.io/npm/dw/qtools.svg)](https://npmjs.org/package/qtools)
 [![License](https://img.shields.io/npm/l/qtools.svg)](https://github.com/theBenForce/qtools/blob/master/package.json)
 
 <!-- toc -->
+* [qtools](#qtools)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
 ```sh-session
 $ npm install -g qtools
@@ -27,7 +28,9 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
 * [`qtools help [COMMAND]`](#qtools-help-command)
 * [`qtools requeue [QUEUE]`](#qtools-requeue-queue)
