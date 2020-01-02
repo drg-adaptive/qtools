@@ -1,5 +1,5 @@
 {
-  "name": "queue-tools",
+  "name": "queue-cli",
   "description": "Tools to interact with AWS queues",
   "version": "0.0.0",
   "author": "Ben Force @theBenForce",

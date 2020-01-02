@@ -3,8 +3,8 @@
 Tools to manage AWS queues
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/queue-tools.svg)](https://npmjs.org/package/queue-tools)
-[![Downloads/week](https://img.shields.io/npm/dw/queue-tools.svg)](https://npmjs.org/package/queue-tools)
+[![Version](https://img.shields.io/npm/v/queue-cli.svg)](https://npmjs.org/package/queue-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/queue-cli.svg)](https://npmjs.org/package/queue-cli)
 [![License](https://img.shields.io/npm/l/qtools.svg)](https://github.com/theBenForce/qtools/blob/master/package.json)
 
 <!-- toc -->
@@ -17,11 +17,11 @@ Tools to manage AWS queues
 
 <!-- usage -->
 ```sh-session
-$ npm install -g queue-tools
+$ npm install -g queue-cli
 $ qtools COMMAND
 running command...
 $ qtools (-v|--version|version)
-queue-tools/0.0.0 darwin-x64 node-v12.13.1
+queue-cli/0.0.0 darwin-x64 node-v12.13.1
 $ qtools --help [COMMAND]
 USAGE
   $ qtools COMMAND
